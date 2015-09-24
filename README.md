@@ -7,3 +7,6 @@ Processing animation of NYPD stop and frisk data.
 2. Make sure the output of `process-saf.r` is named `saf.tsv` in the `data/` directory.
 
 3. Run `stopandfrisk.pde` to visualize the data.
+
+## Notes
+As a sample, the repository contains a compressed `saf.tsv.gz` file in the `data/` directory. This file contains NYPD stop and frisks from January 1, 2012 through the very early morning of March 11, 2012. If you don't want to run the `R` script to process new NYPD data, you can decompress `saf.tsv.gz` and use it to see how the program works.

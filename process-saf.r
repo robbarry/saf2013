@@ -45,7 +45,7 @@ safxprt$MINUTE <- as.vector(difftime(as.POSIXct(safxprt$STAMP), ISOdate(2012,1,1
 safxprt <- safxprt[order(safxprt$MINUTE),]
 
 # Write data to text file:
-write.table(safxprt, file="saf.tsv", sep="\t", row.names=F)
+write.table(safxprt, file="data/saf.tsv", sep="\t", row.names=F)
 
 unique(safxprt$RACE)
 table(safxprt$RACE)

@@ -23,12 +23,8 @@ void setup() {
 void draw() {
   String line;
 
-  int clr = 255;
-  int faderate = 20;
-  stroke(clr,clr,clr,faderate);
-  fill(clr,clr,clr,faderate);
-  rect(0,0,width,height);
-  shape(world, 0, 0, width, height);
+  // Add some fade
+  fadewindow(255, 20);
 
   for(int i = 0; i < lines_at_once; i++) {
     try {
@@ -65,4 +61,12 @@ void draw() {
       }
     }
   }
+}
+
+// Clear old points
+void fadewindow(int baseclr, int faderate) {
+    stroke(baseclr,baseclr,baseclr,faderate);
+    fill(baseclr,baseclr,baseclr,faderate);
+    rect(0,0,width,height);
+    shape(world, 0, 0, width, height);
 }

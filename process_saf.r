@@ -1,12 +1,19 @@
+# Use this script to process SAF files in POR format
+# These files are found here:
+# http://www.nyc.gov/html/nypd/html/analysis_and_planning/stop_question_and_frisk_report.shtml
+
 library("foreign")
 library("stringr")
 
 # This'll take a while:
-saf2012 <- data.frame(read.spss("path_to_saf_2012.por"))
+saf <- data.frame(read.spss("path_to_saf_data.por"))
+
+# Alternatively, use:
+# saf <- read.csv("path_to_saf_data.csv")
 
 # Now slice out the fields we want:
 safxprt <-
-  saf2012[,
+  saf[,
           c("PCT",
             "SER_NUM",
             "DATESTOP",

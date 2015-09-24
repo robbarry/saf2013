@@ -12,7 +12,7 @@ int lines_at_once = 1000;
 int alpha = 40;
 
 void setup() {
-  reader = createReader("2012.txt");   
+  reader = createReader("2012.txt");
   background(255);
   size(1200, 700);
   shapeMode(CORNER);

@@ -15,8 +15,8 @@ As a sample, the repository contains a compressed `saf.tsv.gz` file in the `data
 
 ### saflight
 
-![Image of saflight](https://raw.githubusercontent.com/robbarry/stop-and-frisk/master/saflight/screenshot.tif)
+![Image of saflight](https://github.com/robbarry/stop-and-frisk/raw/master/saflight/screenshot.tif)
 
 ### safdark
 
-![Image of safdark](https://raw.githubusercontent.com/robbarry/stop-and-frisk/master/safdark/screenshot.tif)
+![Image of safdark](https://github.com/robbarry/stop-and-frisk/raw/master/safdark/screenshot.tif)

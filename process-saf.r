@@ -46,7 +46,3 @@ safxprt <- safxprt[order(safxprt$MINUTE),]
 
 # Write data to text file:
 write.table(safxprt, file="data/saf.tsv", sep="\t", row.names=F)
-
-unique(safxprt$RACE)
-table(safxprt$RACE)
-example <- head(safxprt, 100)

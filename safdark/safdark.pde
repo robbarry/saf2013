@@ -97,7 +97,6 @@ void draw() {
     }
 
     String race = pieces[5].trim();
-    println(race);
     if ((race.equals("B")) || (race.equals("P"))) {
       stroke(255,0,0,100);
       clrs[k] = 1;
@@ -217,6 +216,10 @@ int[] colorParts(color spot) {
   colors[1] = (spot >> 8) & 0xFF;
   colors[2] = spot & 0xFF;
   return colors;
+}
+
+void keyPressed() {
+  saveFrame(); 
 }
 
 void loadMap() {

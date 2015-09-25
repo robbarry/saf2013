@@ -10,3 +10,13 @@ Processing animation of NYPD stop and frisk data.
 
 ## Notes
 As a sample, the repository contains a compressed `saf.tsv.gz` file in the `data/` directory. This file contains NYPD stop and frisks from January 1, 2012 through the very early morning of March 11, 2012. If you don't want to run the `R` script to process new NYPD data, you can decompress `saf.tsv.gz` and use it to see how the program works.
+
+## Screenshots
+
+### saflight
+
+![Image of saflight](https://raw.githubusercontent.com/robbarry/stop-and-frisk/master/saflight/screenshot.tif)
+
+### safdark
+
+![Image of safdark](https://raw.githubusercontent.com/robbarry/stop-and-frisk/master/safdark/screenshot.tif)

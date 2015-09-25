@@ -70,3 +70,7 @@ void fadewindow(int baseclr, int faderate) {
     rect(0,0,width,height);
     shape(world, 0, 0, width, height);
 }
+
+void keyPressed() {
+  saveFrame();
+}

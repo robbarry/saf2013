@@ -1,4 +1,4 @@
-# stopandfrisk
+# stop-and-frisk
 Processing animation of NYPD stop and frisk data.
 
 ## Instructions
